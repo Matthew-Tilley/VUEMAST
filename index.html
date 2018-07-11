@@ -18,8 +18,24 @@
 
     <div id="app">
 
-        <h1>{{product}}</h1>
+        <div class="product">
 
+                <div class="product-image">
+
+                    <img v-bind:src="image">
+
+                </div>
+            
+                <div class="product-info">
+
+                    <h1>{{product}}</h1>
+                    
+                </div>
+
+
+                <a v-bind:href="website"><h2>CLICK ME</h2></a>
+ 
+        </div>
 
     </div>
 
