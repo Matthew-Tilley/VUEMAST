@@ -1,3 +1,8 @@
-var product = "socks";
+var app = new Vue({
 
-console.log(product);
+    el: "#app",
+
+    data: {
+        product: "Boots",
+    }
+})
